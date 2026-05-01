@@ -1,0 +1,49 @@
+To-Dos
+ E Startscreen
+ E Spiel animieren
+ E nur bei WASD für WASD reagieren
+ E Pausescreen
+	E Pause/Resume/Stop/Restart
+ E Kollisionsregeln
+	E Kollisionsregeln erst ab 4 
+ E Better S Mode   (Y = Yawn		= 200
+					S = Slow		= 100
+					N = Normal		= 075
+					F = Fast		= 050
+					H = Hyperspeed	= 025
+					C = Custom		= XXX)
+ E Rotes Zeichen links oben ausblenden
+ E Untere Statusleisteninformationswerte cyan färben?
+
+Collision Check
+if X[A] = X[0]
+if Y[A] = Y[0]
+
+Wenn Kopfkoordinate X doppelt vorkommt
+Wenn Kopfkoordinate Y doppelt vorkommt
+
+Wenn die Doppelten Koordinaten an der gleichen Stelle im Array sind
+
+if X[INDEX] = Y[INDEX]
+
+Features die noch hinzugefügt werden sollten
+ * Farbanpassungen
+	* evtl. Hintergrundfarbe auch anpassen
+	* Farbe der Schlange anpassen über ein neues Configmenü
+	* Automatische Farbänderung für Schlange? (--> Regenbogen)
+	* Farbänderung mit Früchten / Feldregionen (z.B. rotes Teil aufsammeln, Schlange wird rot)
+ * Fenstergröße anpassen, evtl. auch auf maximieren reagieren
+ * klassisches Highscrore-Leaderboard
+
+Bekannte Probleme
+ * Wenn sich die Schlange z.B. nach oben bewegt und man S drückt stürzt das Spiel ab während man durch die Wand fährt				- NOTDÜRFTIG BEHOBEN -
+ * Manchmal ist der Punktestand im Pausescreen fünfstellig, wenn das Spiel vorbei ist												
+ * Anzeigefehler, wenn man zu oft im Pausescreen Esc drückt, obwohl die Option ausgegraut ist
+ * Früchte können an einer Position spawnen, wo sich die Schlange zum gegenwärtigen Zustand noch befindet
+ * MÖGLICHERWEISE stimmen manchmal die Punkte von Pausescreen und Spiel nicht überein
+
+Release Plan der Zukunft
+
+Version		Feature
+1.0			Stabil mit einfacher Funktionalität
+1.1			Neues Feature und Bugfixes?
